@@ -1,0 +1,20 @@
+.older {
+    float: right;
+    font-size: 0.9rem;
+    text-align: right;
+    width:50%;
+}
+.newer {
+    float: left;
+    font-size: 0.9rem;
+    width:50%;
+}
+.navbar {
+    padding:  0 0 10px;
+    position: relative;
+	overflow: hidden;
+}
+.post_nav {
+    color: hsl(161, 100%, 27%);
+}
+@media screen and (max-width:450px){.older,.newer{width: 100%; text-align: left;}}

@@ -1,0 +1,28 @@
+.header {
+    margin-bottom: 1.45rem;
+    padding: 5px;
+    overflow: hidden;
+    background: var(--widgetbg);
+    /* position: relative; */
+    z-index: 5;
+    border-bottom: var(--border-bottom);
+}
+
+.div {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 1.45rem 1.0875rem;
+}
+
+.h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+.Link {
+    font-weight: 700;
+    text-decoration: none;
+}
+.switchtheme {
+    margin-left: 10px;
+}

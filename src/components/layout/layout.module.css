@@ -1,0 +1,25 @@
+.div {
+    margin: 0 auto;
+    max-width: 960px;
+    padding: 0 0.5rem 1.45rem;
+}
+.mainwrapper {
+    border-radius: 5px;
+    position: relative;
+    width: calc(100% - 260px);
+    float: left;
+}
+.sidebar {
+    border-radius: 5px;
+    position: relative;
+    width: 250px;
+    float: right;margin-left: 10px;
+}
+.footer {
+	border-top: var(--border-bottom);
+	margin-top: 5px;
+	padding-top: 10px;
+	text-align: center;
+	font-size: 0.9rem;
+}
+@media screen and (max-width:800px){.mainwrapper,.sidebar{width: 100%;float: none}}

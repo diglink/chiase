@@ -72,7 +72,7 @@ export default function Template({ data, pageContext }) {
                   <a class="whatsapp" data-action="share/whatsapp/share" href={`whatsapp://send?text=` + post.frontmatter.title + ` - ` + siteUrl+post.fields.slug} target="_blank" rel="noopener noreferrer">Whatsapp</a>   
                 </div>   
 <div id="commento"></div>
-<script src="https://cdn.commento.io/js/commento.js"></script>
+
                 <hr />
 
                 <NavBar newer={pageContext.newer} older={pageContext.older} />

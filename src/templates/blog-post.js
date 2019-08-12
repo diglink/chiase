@@ -70,7 +70,9 @@ export default function Template({ data, pageContext }) {
                   <a class="twitter" href={`//twitter.com/share?url=`+siteUrl+post.fields.slug} target="_blank" rel="noopener noreferrer">Twitter</a>   
                   <a class="linkedin" href={`//www.linkedin.com/shareArticle?mini=true&url=` + siteUrl+post.fields.slug + `&title=` + post.frontmatter.title + `&summary=` + post.frontmatter.description} target="_blank" rel="noopener noreferrer">Linkedin</a> 
                   <a class="whatsapp" data-action="share/whatsapp/share" href={`whatsapp://send?text=` + post.frontmatter.title + ` - ` + siteUrl+post.fields.slug} target="_blank" rel="noopener noreferrer">Whatsapp</a>   
-                </div>                  
+                </div>   
+<div id="commento"></div>
+<script src="https://cdn.commento.io/js/commento.js"></script>
                 <hr />
 
                 <NavBar newer={pageContext.newer} older={pageContext.older} />

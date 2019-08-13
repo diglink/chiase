@@ -14,22 +14,6 @@ export default function Template({ data, pageContext }) {
     const siteUrl=data.site.siteMetadata.siteUrl
     const time = new Date(post.frontmatter.date)
     const currentDate = new Date();
-const perlinNoise = require('https://cdn.commento.io/js/commento.js')
-
-const insertJS = () => {
-  const addJS = (src) => {
-    const s = document.createElement(`script`)
-    s.type = `text/javascript`
-    s.src = src
-    document.getElementsByTagName(`body`)[0].appendChild(s)
-  }
-
-  addJS(perlinNoise)
-}
-
-exports.onInitialClientRender = () => {
-  insertJS()
-}
     return (
         <>
             <Layout 
